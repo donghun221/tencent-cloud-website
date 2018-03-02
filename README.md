@@ -31,7 +31,7 @@ SDK，用户可以使用云 API 或 SDK 来申请临时密钥三元组。
 | expiredTime    | Int    | 证书无效的时间戳                                     |
 
 - 访问请求示例
-> ht<span>tps://</span>sts.api.qcloud.com/v2/index.php?Action=GetFederationToken&Nonce=745162946&Region=ap-guangzhou&RequestClient=SDK\_JAVA\_2.0.4&SecretId=AKIDgFgFj4bSobJ2e8Lgq7JK9nFcsyESoVKB&Signature=UvuOAMrQSDOz2eFKReaNgnw90bRLwJuVZRn13i9vqyQ=&SignatureMethod=HmacSHA256&Timestamp=1519968698&name=my nick name&policy={“statement":\[{"action":\["cos:GetObject"\],"effect":"allow","resource":\["qcs::cos:ap-guangzhou:uid/123456789:prefix//123456789/demo-bucket/\*"\]}\],"condition":{"ip\_equal":{"qcs:ip": “192.168.0.1/24"}}"version":"2.0"}*
+> `https://sts.api.qcloud.com/v2/index.php?Action=GetFederationToken&Nonce=745162946&Region=ap-guangzhou&RequestClient=SDK\_JAVA\_2.0.4&SecretId=AKIDgFgFj4bSobJ2e8Lgq7JK9nFcsyESoVKB&Signature=UvuOAMrQSDOz2eFKReaNgnw90bRLwJuVZRn13i9vqyQ=&SignatureMethod=HmacSHA256&Timestamp=1519968698&name=my nick name&policy={“statement":\[{"action":\["cos:GetObject"\],"effect":"allow","resource":\["qcs::cos:ap-guangzhou:uid/123456789:prefix//123456789/demo-bucket/\*"\]}\],"condition":{"ip\_equal":{"qcs:ip": “192.168.0.1/24"}}"version":"2.0"}*`
 
 
 Policy内容示例
