@@ -368,7 +368,7 @@ public class Demo {
 <img src="" width="624" height="310" />
 
  6. 选择下一步
-<img src="" width="624" height="310" />
+<img src="/image/Step-6.png" width="624" height="310" />
 
  7. 选择创建策略
 <img src="" width="624" height="310" />
