@@ -45,10 +45,10 @@ Policy内容示例
             ],
             "resource": [
                 "qcs::cos:ap-guangzhou:uid/123456789:prefix//123456789/demo-bucket/*"
-            ]，
+            ],
             "condition": {
                 "ip_equal": {
-                    "qcs:ip": “192.168.0.1/24"
+                    "qcs:ip": "192.168.0.1/24"
                 }
             }
         }
@@ -295,7 +295,7 @@ public class Demo {
 	        },
 	        "effect": "allow",
 	        "resource": [
-	            “qcs::cos:ap-guangzhou:uid/12345678910:prefix//12345678910/demo-bucket/*”
+	            "qcs::cos:ap-guangzhou:uid/12345678910:prefix//12345678910/demo-bucket/*"
 	        ]
 	    }
 	],
