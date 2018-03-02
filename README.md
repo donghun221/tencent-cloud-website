@@ -352,27 +352,27 @@ public class Demo {
 ## 怎样通过策略生成器方便地生成Policy？
 
  1. 登陆腾讯云控制台
-<img src="" width="624" height="310" />
+<img src="/image/Step-1.png" width="624" height="310" />
 
  2. 进入访问管理页面
-<img src="" width="624" height="310" />
+<img src="/image/Step-2.png" width="624" height="310" />
 
  3. 进入策略管理面，并点击新建自定义策略
-<img src="" width="624" height="310" />
+<img src="/image/Step-3.png" width="624" height="310" />
 
  4. 在选择服务和操作页面中选择对象存储服务
-<img src="" width="624" height="310" />
+<img src="/image/Step-4.png" width="624" height="310" />
 
  5. 选择需要的操作以及资源描述
 在这里选择了GetObject操作，资源描述可参照（[*说明*](https://cloud.tencent.com/document/product/598/10606)）。然后，点击添加声明。
-<img src="" width="624" height="310" />
+<img src="/image/Step-5.png" width="624" height="310" />
 
  6. 选择下一步
 <img src="/image/Step-6.png" width="624" height="310" />
 
  7. 选择创建策略
-<img src="" width="624" height="310" />
+<img src="/image/Step-7.png" width="624" height="310" />
 
  8. 自定义策略列表
 完成之后，就能在控制台中看到创建好的策略了。
-<img src="" width="624" height="310" />
+<img src="/image/Step-8.png" width="624" height="310" />
